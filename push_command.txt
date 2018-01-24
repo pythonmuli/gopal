@@ -1,0 +1,51 @@
+Gopal@DESKTOP-858TD2E MINGW32 ~/Desktop/cal (master)
+$ git init
+Initialized empty Git repository in C:/Users/Gopal/Desktop/cal/.git/
+
+Gopal@DESKTOP-858TD2E MINGW32 ~/Desktop/cal (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Hello_python.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Gopal@DESKTOP-858TD2E MINGW32 ~/Desktop/cal (master)
+$ git add .
+
+Gopal@DESKTOP-858TD2E MINGW32 ~/Desktop/cal (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   Hello_python.txt
+
+
+Gopal@DESKTOP-858TD2E MINGW32 ~/Desktop/cal (master)
+$ git commit -m "First file to be pushed"
+[master (root-commit) aad93fa] First file to be pushed
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Hello_python.txt
+
+Gopal@DESKTOP-858TD2E MINGW32 ~/Desktop/cal (master)
+$ git remote add origin https://github.com/pythonmuli/cal.git
+
+Gopal@DESKTOP-858TD2E MINGW32 ~/Desktop/cal (master)
+$ git push origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 248 bytes | 248.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/pythonmuli/cal.git
+ * [new branch]      master -> master
+
+Gopal@DESKTOP-858TD2E MINGW32 ~/Desktop/cal (master)
+$
